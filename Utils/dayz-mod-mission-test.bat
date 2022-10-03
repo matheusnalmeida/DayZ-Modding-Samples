@@ -39,7 +39,7 @@ POPD
 
 PUSHD %dayzpath%
 ::-nosplash -noPause -noBenchmark -filePatching -doLogs -scriptDebug=true
-set dayzmodparampath="DayZDiag_x64.exe -mod="%arg2%" -mission="%arg3%" "
+set dayzmodparampath="DayZDiag_x64.exe -mod="%arg2%" -mission="%arg3%" -filePatching"
 start "" %dayzmodparampath:"=%
 
 POPD
