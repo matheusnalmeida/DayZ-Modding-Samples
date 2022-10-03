@@ -22,3 +22,5 @@ https://community.bistudio.com/wiki/DayZ:Modding_Structure
 
 - Repository to run dayz single player Missions(Test):
 https://github.com/Arkensor/DayZCommunityOfflineMode
+
+### OBS: The "Execs" folder contains bat files for fast execution of the bats explained before and can be used to execute the bats without need to always pass the parameters.
