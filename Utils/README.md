@@ -39,4 +39,4 @@ OBS: The git [Arkensor DayZCommunityOfflineMode repository](https://github.com/A
 Script that create a symbolic link from repository Mods Folder to P:/ Project Drive, so we can work in the mods from dayz tools scripts editor. This bat has no parameters and need to be run as administrator from repository Utils/create-symbolic-link-mods.bat folder. Just click to run
 
 # Observations:
-- The "Execs" folder contains bat files for fast execution of the bats explained before and can be used to execute the bats without need to always pass the parameters.
+- The "Execs" folder contains bat files for fast execution of the bats explained before and can be used to execute the bats without need to always pass the parameters. No need to commit changes in this files, so use ```git update-index --skip-worktree .\Utils\Execs\filename.bat``` if you want to ignore the changes in git.
