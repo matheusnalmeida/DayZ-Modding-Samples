@@ -2,4 +2,4 @@
 
 cd ..
 
-dayztools-mod-test.bat "D:\SteamLibrary\steamapps" "P:\PackedPbos\@FirstModPacked"
+dayztools-mod-test.bat "D:\SteamLibrary\steamapps" "P:\Mods\FirstMod"

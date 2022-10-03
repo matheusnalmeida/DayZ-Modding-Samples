@@ -6,8 +6,7 @@ A repository with some source codes for dayz mods
 
 - Utils: Bat Files and Scripts to make the process of develop mods more easy(The folder has a readme explaining what each script does) 
 
-## Shared Directory Link Configuration
-
+- Mods: The folder that contains the developed mods in enforce script language.
 
 ## References/Tutorials
 
@@ -22,5 +21,3 @@ https://community.bistudio.com/wiki/DayZ:Modding_Structure
 
 - Repository to run dayz single player Missions(Test):
 https://github.com/Arkensor/DayZCommunityOfflineMode
-
-### OBS: The "Execs" folder contains bat files for fast execution of the bats explained before and can be used to execute the bats without need to always pass the parameters.
