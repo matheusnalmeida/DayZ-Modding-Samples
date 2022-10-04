@@ -4,15 +4,23 @@ if not exist P: (
   GOTO INVALIDPROJECTPATH
 ) 
 
-if exist P:\Mods (
-  GOTO MODSPROJECTFOLDEREXISTS
+if not exist P:\Mods (
+  pushd %~dp0
+  cd ../Mods
+  mklink /d P:\Mods %CD%
 ) 
 
-pushd %~dp0
+for /F "Tokens=2* skip=2" %%A In ('REG QUERY "HKLM\SOFTWARE\Wow6432Node\bohemia interactive\Dayz" /v "main" 2^>nul') do (
+	set _DAYZPATH="%%B"
+  set _DAYZPATHMODS="%%B\Mods"
+)
 
-cd ../Mods
+if exist %_DAYZPATH% (
+  if not exist %_DAYZPATHMODS% (
+    mklink /J %_DAYZPATH% "P:\Mods"
+  )
+) 
 
-mklink /d P:\Mods %CD%
 pause
 goto :eof
 
