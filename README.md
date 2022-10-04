@@ -21,3 +21,5 @@ https://community.bistudio.com/wiki/DayZ:Modding_Structure
 
 - Repository to run dayz single player Missions(Test):
 https://github.com/Arkensor/DayZCommunityOfflineMode
+
+-- Community dayz samples repository: https://github.com/Thurston00/DayZ-CommunitySamples
